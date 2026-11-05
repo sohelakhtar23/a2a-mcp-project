@@ -1,7 +1,16 @@
 [project]
 name = "a2a-mcp-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Travel Agent App"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "langchain>=1.4.9",
+    "langchain-openai>=1.7.4",
+    "mcp>=2.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.uv]
+package = false
