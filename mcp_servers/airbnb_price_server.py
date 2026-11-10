@@ -14,6 +14,8 @@ and subscribe to the free tier of "Airbnb13" (by 3b-data).
 import os
 
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP("airbnb-price-server")

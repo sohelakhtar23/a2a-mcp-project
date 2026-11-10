@@ -7,7 +7,7 @@ about A2A, JSON-RPC, or HTTP -- see common/executor.py for the adapter that
 connects this to the outside world.
 
 The tool is a REMOTE MCP server (wrapping Booking.com's real search via
-RapidAPI), deployed at https://github.com/Zalaid/a2a-travel-mcp-servers and
+RapidAPI), deployed at https://github.com/sohelakhtar23/a2a-travel-mcp-servers and
 reached over plain HTTPS -- same remote-vs-local contrast as the flight
 agent. Under LangGraph that's just a "streamable_http" transport string.
 
@@ -28,8 +28,8 @@ from common.langgraph_helpers import latest_tool_call
 from common.turn_result import TurnResult
 
 # The real, deployed hotel-price MCP server -- see
-# https://github.com/Zalaid/a2a-travel-mcp-servers
-HOTEL_MCP_URL = "https://booking-mcp-server.onrender.com/mcp"
+# https://github.com/sohelakhtar23/a2a-travel-mcp-servers
+HOTEL_MCP_URL = "https://hotel-price-service.onrender.com/mcp"
 
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 

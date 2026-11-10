@@ -8,7 +8,7 @@ the adapter that connects this to the outside world.
 
 The tool is a REMOTE MCP server -- not a local subprocess. The same tool
 code (wrapping FlightAPI.io's one-way search) is deployed independently at
-https://github.com/Zalaid/a2a-travel-mcp-servers and reached over plain
+https://github.com/sohelakhtar23/a2a-travel-mcp-servers and reached over plain
 HTTPS. Contrast this with the weather/airbnb agents, whose tools are local
 stdio subprocesses. Under LangGraph this distinction is just a different
 transport string in the MultiServerMCPClient config ("streamable_http" +
@@ -32,8 +32,8 @@ from common.langgraph_helpers import latest_tool_call
 from common.turn_result import TurnResult
 
 # The real, deployed flight-price MCP server -- see
-# https://github.com/Zalaid/a2a-travel-mcp-servers
-FLIGHT_MCP_URL = "https://flight-mcp-server.onrender.com/mcp"
+# https://github.com/sohelakhtar23/a2a-travel-mcp-servers
+FLIGHT_MCP_URL = "https://flight-price-service.onrender.com/mcp"
 
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
