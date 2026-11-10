@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 800" width="1500" height="800" font-family="DejaVu Sans, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#131C31"/></linearGradient>
+<linearGradient id="cl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E293B"/><stop offset="1" stop-color="#0F172A"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1E293B"/></pattern>
+</defs>
+<rect width="1500" height="800" fill="url(#bg)"/><rect width="1500" height="800" fill="url(#dots)"/>
+<text x="165" y="38" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2.5" fill="#94A3B8">CLIENT · DISCOVERY</text>
+<text x="720" y="38" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2.5" fill="#94A3B8">A2A AGENTS</text>
+<text x="1253" y="38" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2.5" fill="#94A3B8">MCP TOOL SERVERS</text>
+<text x="723" y="76" text-anchor="middle" font-size="17" font-family="DejaVu Sans Mono, monospace" fill="#5EEAD4" text-decoration="underline">https://console.groq.com/</text>
+<path d="M840 30 H1130" stroke="#475569" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/><path d="M1130 30 l-9 -5 v10z" fill="#475569"/>
+<rect x="22" y="336" width="284" height="142" rx="16" fill="url(#cl)" stroke="#FBBF24" stroke-width="2.5"/>
+<text x="164" y="375" text-anchor="middle" font-size="25" font-weight="700" fill="#FBBF24">Client Agent</text>
+<text x="164" y="402" text-anchor="middle" font-size="16" fill="#F1F5F9">any A2A-compliant client</text>
+<text x="164" y="426" text-anchor="middle" font-size="12.5" fill="#CBD5E1">Claude Code · Gemini CLI · LangChain</text>
+<text x="164" y="449" text-anchor="middle" font-size="11.5" fill="#94A3B8">discovers agents, then sends A2A calls</text>
+<rect x="22" y="578" width="284" height="118" rx="14" fill="#111A2E" stroke="#64748B" stroke-width="2"/>
+<text x="164" y="609" text-anchor="middle" font-size="17" font-weight="700" fill="#F1F5F9">Agent Catalog / Registry</text>
+<text x="164" y="632" text-anchor="middle" font-size="12.5" font-family="DejaVu Sans Mono, monospace" fill="#CBD5E1">registry/catalog_server.py</text>
+<text x="164" y="653" text-anchor="middle" font-size="12.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">http://localhost:9000</text>
+<text x="164" y="675" text-anchor="middle" font-size="11.5" fill="#94A3B8">holds agent cards · self-register on startup</text>
+<path d="M164 576 V482" stroke="#64748B" stroke-width="2.5"/><path d="M164 480 l-5 9 h10z M164 578 l-5 -9 h10z" fill="#64748B"/>
+<text x="175" y="531" font-size="13" font-weight="700" fill="#94A3B8">discovery</text>
+<text x="408" y="353" text-anchor="middle" font-size="22" font-weight="700" fill="#F1F5F9">A2A protocol</text>
+<text x="408" y="375" text-anchor="middle" font-size="14.5" font-weight="700" fill="#CBD5E1">JSON-RPC 2.0 / REST</text>
+<text x="408" y="396" text-anchor="middle" font-size="12" fill="#94A3B8">header: X-API-Key</text>
+<path d="M306 407 H510" stroke="#64748B" stroke-width="2.5"/><circle cx="510" cy="407" r="4" fill="#64748B"/>
+<path d="M510 167 V684" stroke="#64748B" stroke-width="2.5"/>
+<path d="M510 167 H568" stroke="#38BDF8" stroke-width="2.5"/><path d="M570 167 l-9 -5 v10z" fill="#38BDF8"/>
+<rect x="571" y="86" width="297" height="162" rx="16" fill="#111A2E" stroke="#38BDF8" stroke-width="2.5"/>
+<rect x="571" y="86" width="297" height="162" rx="16" fill="#38BDF8" opacity="0.07"/>
+<text x="591" y="123" font-size="21" font-weight="700" fill="#F8FAFC">Flight-Booking Agent</text>
+<rect x="591" y="136" width="150" height="27" rx="13.5" fill="#38BDF8"/>
+<text x="666" y="155" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0B1220">skill: book-flight</text>
+<text x="591" y="189" font-size="16" font-family="DejaVu Sans Mono, monospace" fill="#E2E8F0">http://localhost:9001</text>
+<text x="591" y="213" font-size="12.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#38BDF8">a2a_agents/flight/</text>
+<text x="601" y="233" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">brain.py · card.py · server.py</text>
+<rect x="869" y="123" width="166" height="26" rx="13" fill="#0B1220" stroke="#38BDF8" stroke-width="1.8"/>
+<text x="952" y="140" text-anchor="middle" font-size="10.5" font-weight="700" fill="#38BDF8">MCP · Streamable HTTP</text>
+<path d="M870 163 H1026" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/><path d="M1037 163 l-14 -8 v16z" fill="#38BDF8"/>
+<path d="M1034 183 H878" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.8"/><path d="M868 183 l14 -7 v14z" fill="#38BDF8" opacity="0.8"/>
+<text x="952" y="175" text-anchor="middle" font-size="9.5" fill="#94A3B8">request</text>
+<text x="952" y="201" text-anchor="middle" font-size="9.5" fill="#94A3B8">response</text>
+<rect x="1037" y="86" width="433" height="162" rx="16" fill="#0F1729" stroke="#38BDF8" stroke-width="2.5"/>
+<text x="1057" y="123" font-size="21" font-weight="700" fill="#F8FAFC">MCP Server</text>
+<rect x="1372" y="103" width="80" height="30" rx="15" fill="#38BDF8"/>
+<text x="1412" y="124" text-anchor="middle" font-size="14" font-weight="700" fill="#0B1220">remote</text>
+<text x="1057" y="161" font-size="11.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#F1F5F9">search_flights(dep_iata, arr_iata, date, cabin)</text>
+<text x="1057" y="187" font-size="15" fill="#94A3B8">→ FlightAPI.io</text>
+<text x="1057" y="213" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">sohelakhtar23/a2a-travel-mcp-servers · Render</text>
+<text x="1057" y="235" font-size="14" font-family="DejaVu Sans Mono, monospace" fill="#5EEAD4" text-decoration="underline">https://flight-price-service.onrender.com/mcp</text>
+<path d="M510 339 H568" stroke="#FB923C" stroke-width="2.5"/><path d="M570 339 l-9 -5 v10z" fill="#FB923C"/>
+<rect x="571" y="258" width="297" height="162" rx="16" fill="#111A2E" stroke="#FB923C" stroke-width="2.5"/>
+<rect x="571" y="258" width="297" height="162" rx="16" fill="#FB923C" opacity="0.07"/>
+<text x="591" y="295" font-size="21" font-weight="700" fill="#F8FAFC">Hotel-Booking Agent</text>
+<rect x="591" y="308" width="150" height="27" rx="13.5" fill="#FB923C"/>
+<text x="666" y="327" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0B1220">skill: book-hotel</text>
+<text x="591" y="361" font-size="16" font-family="DejaVu Sans Mono, monospace" fill="#E2E8F0">http://localhost:9002</text>
+<text x="591" y="385" font-size="12.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#FB923C">a2a_agents/hotel/</text>
+<text x="601" y="405" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">brain.py · card.py · server.py</text>
+<rect x="869" y="295" width="166" height="26" rx="13" fill="#0B1220" stroke="#FB923C" stroke-width="1.8"/>
+<text x="952" y="312" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FB923C">MCP · Streamable HTTP</text>
+<path d="M870 335 H1026" stroke="#FB923C" stroke-width="4" stroke-linecap="round"/><path d="M1037 335 l-14 -8 v16z" fill="#FB923C"/>
+<path d="M1034 355 H878" stroke="#FB923C" stroke-width="2.5" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.8"/><path d="M868 355 l14 -7 v14z" fill="#FB923C" opacity="0.8"/>
+<text x="952" y="347" text-anchor="middle" font-size="9.5" fill="#94A3B8">request</text>
+<text x="952" y="373" text-anchor="middle" font-size="9.5" fill="#94A3B8">response</text>
+<rect x="1037" y="258" width="433" height="162" rx="16" fill="#0F1729" stroke="#FB923C" stroke-width="2.5"/>
+<text x="1057" y="295" font-size="21" font-weight="700" fill="#F8FAFC">MCP Server</text>
+<rect x="1372" y="275" width="80" height="30" rx="15" fill="#FB923C"/>
+<text x="1412" y="296" text-anchor="middle" font-size="14" font-weight="700" fill="#0B1220">remote</text>
+<text x="1057" y="333" font-size="11.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#F1F5F9">search_hotels(city, arrival_date, departure_date, adults)</text>
+<text x="1057" y="359" font-size="15" fill="#94A3B8">→ Booking.com · RapidAPI</text>
+<text x="1057" y="385" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">sohelakhtar23/a2a-travel-mcp-servers · Render</text>
+<text x="1057" y="407" font-size="14" font-family="DejaVu Sans Mono, monospace" fill="#5EEAD4" text-decoration="underline">https://hotel-price-service.onrender.com/mcp</text>
+<path d="M510 511 H568" stroke="#F472B6" stroke-width="2.5"/><path d="M570 511 l-9 -5 v10z" fill="#F472B6"/>
+<rect x="571" y="430" width="297" height="162" rx="16" fill="#111A2E" stroke="#F472B6" stroke-width="2.5"/>
+<rect x="571" y="430" width="297" height="162" rx="16" fill="#F472B6" opacity="0.07"/>
+<text x="591" y="467" font-size="21" font-weight="700" fill="#F8FAFC">Airbnb Agent</text>
+<rect x="591" y="480" width="150" height="27" rx="13.5" fill="#F472B6"/>
+<text x="666" y="499" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0B1220">skill: book-airbnb</text>
+<text x="591" y="533" font-size="16" font-family="DejaVu Sans Mono, monospace" fill="#E2E8F0">http://localhost:9003</text>
+<text x="591" y="557" font-size="12.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#F472B6">a2a_agents/airbnb/</text>
+<text x="601" y="577" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">brain.py · card.py · server.py</text>
+<rect x="869" y="467" width="166" height="26" rx="13" fill="#0B1220" stroke="#F472B6" stroke-width="1.8"/>
+<text x="952" y="484" text-anchor="middle" font-size="10.5" font-weight="700" fill="#F472B6">MCP · stdio subprocess</text>
+<path d="M870 507 H1026" stroke="#F472B6" stroke-width="4" stroke-linecap="round"/><path d="M1037 507 l-14 -8 v16z" fill="#F472B6"/>
+<path d="M1034 527 H878" stroke="#F472B6" stroke-width="2.5" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.8"/><path d="M868 527 l14 -7 v14z" fill="#F472B6" opacity="0.8"/>
+<text x="952" y="519" text-anchor="middle" font-size="9.5" fill="#94A3B8">request</text>
+<text x="952" y="545" text-anchor="middle" font-size="9.5" fill="#94A3B8">response</text>
+<rect x="1037" y="430" width="433" height="162" rx="16" fill="#0F1729" stroke="#F472B6" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="1057" y="467" font-size="21" font-weight="700" fill="#F8FAFC">MCP Server</text>
+<rect x="1372" y="447" width="80" height="30" rx="15" fill="#F472B6"/>
+<text x="1412" y="468" text-anchor="middle" font-size="14" font-weight="700" fill="#0B1220">local</text>
+<text x="1057" y="505" font-size="11.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#F1F5F9">search_airbnb(location, checkin, checkout, adults)</text>
+<text x="1057" y="531" font-size="15" fill="#94A3B8">→ Airbnb13 · RapidAPI</text>
+<text x="1057" y="557" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">mcp_servers/airbnb_price_server.py</text>
+<path d="M510 683 H568" stroke="#34D399" stroke-width="2.5"/><path d="M570 683 l-9 -5 v10z" fill="#34D399"/>
+<rect x="571" y="602" width="297" height="162" rx="16" fill="#111A2E" stroke="#34D399" stroke-width="2.5"/>
+<rect x="571" y="602" width="297" height="162" rx="16" fill="#34D399" opacity="0.07"/>
+<text x="591" y="639" font-size="21" font-weight="700" fill="#F8FAFC">Weather Agent</text>
+<rect x="591" y="652" width="150" height="27" rx="13.5" fill="#34D399"/>
+<text x="666" y="671" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0B1220">skill: get-weather</text>
+<text x="591" y="705" font-size="16" font-family="DejaVu Sans Mono, monospace" fill="#E2E8F0">http://localhost:9004</text>
+<text x="591" y="729" font-size="12.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#34D399">a2a_agents/weather/</text>
+<text x="601" y="749" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">brain.py · card.py · server.py</text>
+<rect x="869" y="639" width="166" height="26" rx="13" fill="#0B1220" stroke="#34D399" stroke-width="1.8"/>
+<text x="952" y="656" text-anchor="middle" font-size="10.5" font-weight="700" fill="#34D399">MCP · stdio subprocess</text>
+<path d="M870 679 H1026" stroke="#34D399" stroke-width="4" stroke-linecap="round"/><path d="M1037 679 l-14 -8 v16z" fill="#34D399"/>
+<path d="M1034 699 H878" stroke="#34D399" stroke-width="2.5" stroke-dasharray="7 5" stroke-linecap="round" opacity="0.8"/><path d="M868 699 l14 -7 v14z" fill="#34D399" opacity="0.8"/>
+<text x="952" y="691" text-anchor="middle" font-size="9.5" fill="#94A3B8">request</text>
+<text x="952" y="717" text-anchor="middle" font-size="9.5" fill="#94A3B8">response</text>
+<rect x="1037" y="602" width="433" height="162" rx="16" fill="#0F1729" stroke="#34D399" stroke-width="2.5" stroke-dasharray="7 5"/>
+<text x="1057" y="639" font-size="21" font-weight="700" fill="#F8FAFC">MCP Server</text>
+<rect x="1372" y="619" width="80" height="30" rx="15" fill="#34D399"/>
+<text x="1412" y="640" text-anchor="middle" font-size="14" font-weight="700" fill="#0B1220">local</text>
+<text x="1057" y="677" font-size="11.5" font-weight="700" font-family="DejaVu Sans Mono, monospace" fill="#F1F5F9">get_weather(city, date)</text>
+<text x="1057" y="703" font-size="15" fill="#94A3B8">→ Open-Meteo · no key</text>
+<text x="1057" y="729" font-size="11.5" font-family="DejaVu Sans Mono, monospace" fill="#94A3B8">mcp_servers/weather_server.py</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplMDg0MGJkMi1iOGVjLTQ1MDgtODAyOS1kNjFhNDM2YWJjMTMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGbPJiRChqGLmYervuNWptsAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiM2YxNWU3MC0wOWRmLTRmYzItODEyYS1jNDhjYTBlOWZiMjlscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoemkjtmI4Nm7onmx2Tx8tvwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggEQ7yvakdwV4oUJADsyR5sGBTHX3uGXhPVyOauaj2k2akZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNH42tjd4j0r6EYNYG2uVpUAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIPjQQv2LKXqZfxGfB6DbwcgRIR6C8JDGLeU9KdWfyAKdZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTWoZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmUwODQwYmQyLWI4ZWMtNDUwOC04MDI5LWQ2MWE0MzZhYmMxMy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjRlYWM3M2YxLTUzNGYtNDQyYy1hNzc2LTFkMTZjN2Y0ZWU4YnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCARDvK9qR3BXihQkAOzJHmwYFMdfe4ZeE9XI5q5qPaTZqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggHzUdDYp8UqlGVN/zSyKU/z3MmGfJWx3Q9lemteRh/qOiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg0HNVYBTYwFs6T8c3pR23EqOLthAm/XScZYZ1XerDUtt0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNVm4LCf1Bk9op9cVQ4dIPJf8YPSa1vuc2WsVq93PWAmejTCeAzh+rl2jBV9Vgu0GHInQOvTGkBO/BikrbLhKs0=</c2pa:manifest></metadata></svg>
