@@ -119,8 +119,8 @@ a2a-demo/
 This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 
 ```bash
-git clone https://github.com/arifpucit/a2a-demo.git
-cd a2a-demo
+git clone https://github.com/sohelakhtar23/a2a-mcp-project.git
+cd a2a-mcp-project
 uv sync
 ```
 
@@ -307,3 +307,7 @@ remove the `get_tools` fake lines in `run_matrix.py`.
 - [LangGraph](https://github.com/langchain-ai/langgraph) / [`langchain-mcp-adapters`](https://github.com/langchain-ai/langchain-mcp-adapters)
 - [Groq](https://groq.com/) (LLM inference)
 - [FastAPI](https://fastapi.tiangolo.com/) / [Starlette](https://www.starlette.io/) / [Uvicorn](https://www.uvicorn.org/)
+
+
+## Acknowledgements
+[Dr. Muhammad Arif Butt](https://github.com/arifpucit)
